@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  server:
+    build: ./server
+    container_name: server-go
+    ports: 
+     - "5050:5050"
